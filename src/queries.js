@@ -40,31 +40,31 @@ export let campaignImage = {
 }
 
 export let campaignVideo = {
-    "name": "Campaign with an image",
-    "status": "active",
-    "date_start": "2021-07-31",
-    "date_end": "2021-08-06",
-    "budget_limit_day": "1000",
-    "budget_limit": "5000",
-    "mixing": "fastest",
-    "price": "0.01",
-    "enable_utm": false,
-    "package_id": 2265,
-    "objective": "videoviews",
-    "banners": [{
-        "urls": {
-            "primary": {
-                "id": 203813
+    name: "Campaign with an image",
+    status: "active",
+    date_start: "2021-07-31",
+    date_end: "2021-08-06",
+    budget_limit_day: "1000",
+    budget_limit: "5000",
+    mixing: "fastest",
+    price: "0.01",
+    enable_utm: false,
+    package_id: 2265,
+    objective: "videoviews",
+    banners: [{
+        urls: {
+            primary: {
+                id: 203813
             }
         },
-        "content": {
-            "video_landscape_6s": {
-                "id": 6140
+        content: {
+            video_landscape_6s: {
+                id: 6140
             }
         }
     }],
-    "targetings": {
-        "segments": [1696]
+    targetings: {
+        segments: [1696]
     }
 }
 

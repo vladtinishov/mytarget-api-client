@@ -58,7 +58,6 @@
   </div>
 </template>
 <script>
-// import { campaignImage, createUrl } from "@/queries"
 import Section from "@/components/Section";
 import {mapActions, mapGetters, mapMutations} from "vuex"
 export default {
@@ -96,7 +95,7 @@ export default {
       let form = new FormData();
       let file = document.getElementById("file");
       form.append("file", file.files[0]);
-      form.append("data", '{"width":500, "height":500}');
+      form.append("data", '{"width":800, "height":360}');
       this.createImage(form);
     }
   }
