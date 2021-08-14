@@ -130,3 +130,6 @@ https://target-sandbox.my.com/api/v2/remarketing/segments.json
 3. Подключить её к рекламе
 
 Для в поле targetings.segments любой из типов кампаний нужно указать [SEGEMNT_ID] (в фигурных скобках)
+
+
+Документация по всем ресурсам api находится [здесь](https://target.my.com/doc/api/ru/resource/AudienceScoreStats)
