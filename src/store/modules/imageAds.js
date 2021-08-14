@@ -73,7 +73,7 @@ export default {
             console.log(state.campaignImage)
         },
         updateImage(state, imageId) {
-            state.campaignImage.banners[0].content.image_600x600.id = imageId; 
+            state.campaignImage.banners[0].content.image_600x600.id = imageId;
             console.log(state.campaignImage)
         },
         updateBanner(state, bannerObject) {
